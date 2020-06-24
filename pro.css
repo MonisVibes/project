@@ -1,0 +1,94 @@
+#example {
+	/* background-image: url("img/hnbgu.jpg"), url(paper.gif); */
+	background-attachment: local;
+	background-position: left bottom, right top;
+	background-repeat: no-repeat, repeat;
+	background-size: 90px 90px;
+}
+
+.jumbotron {
+	padding: 21px !important;
+	margin: 0px !important;
+	margin-bottom: 15px !important;
+}
+
+.logo {
+	height: 11em;
+}
+
+
+@media (max-width: 765px) {
+	.jumbotron>.row>.small_screen {
+		text-align: center !important;
+		margin-top: 38px;
+		margin-bottom: -37px;
+	}
+
+	section .card {
+		margin-bottom: 20px;
+	}
+
+	.btnd {
+		margin-bottom: 10px !important;
+		text-align: center;
+	}
+
+	.btnss {
+		text-align: center;
+	}
+
+	.btns {
+		margin-top: 10px !important;
+	}
+}
+
+
+.bg-img {
+	background-image: url("img/feature_himalaya_featured.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+marquee>strong>a>span {
+	margin-left: 10px;
+}
+
+marquee>strong>a>span::after {
+	content: '|';
+	color: black;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+/*
+#l1{
+ text-align: center;
+}
+#l2{
+	text-align: center;
+}*/
+.manu {
+	width: 220vh;
+	background: yellow;
+	height: 40px;
+}
+
+.manu ul {
+	margin: center;
+	text-align: center;
+	padding: 10p
+}
+
+.manu ul li {
+	list-style: none;
+	display: inline;
+}
+
+.manu ul li a {
+	text-decoration: none;
+	display: inline-block;
+	line-height: 40px;
+	padding: 0px 15px 0px 15px;
+}

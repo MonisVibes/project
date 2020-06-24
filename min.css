@@ -1,0 +1,18 @@
+#example {
+	/* background-image: url("img/hnbgu.jpg"), url(paper.gif); */
+	background-attachment: local;
+	background-position: left bottom, right top;
+	background-repeat: no-repeat, repeat;
+	background-size: 90px 90px;
+}
+
+.jumbotron {
+    padding: 21px !important;
+    margin: 0px !important;
+    margin-bottom: 15px !important;
+	
+}
+
+.logo{
+    height: 11em;
+}
